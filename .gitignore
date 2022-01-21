@@ -38,3 +38,4 @@ yarn-error.log*
 
 # anity
 /mediumsanity/node_modules
+/mediumsanity/dist/
