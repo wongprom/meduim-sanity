@@ -74,7 +74,9 @@ function Post({ post }: Props) {
         <div className="mt-10">
           <PortableText
             className=""
+            // @ts-expect-error
             dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
+            // @ts-expect-error
             projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
             content={post.body}
             serializers={{
